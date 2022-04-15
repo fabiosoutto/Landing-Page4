@@ -1,0 +1,148 @@
+body {
+    font-family: Poppins, sans-serif;
+}
+
+.navbar {
+    background-color: #524c4c;
+}
+
+.navbar a {
+    display: block;
+    margin-right: 15px;
+    transition: 0.4s;
+}
+
+.navbar a:hover {
+    background-color: #BDBDBD;
+    border-radius: 15px;
+    padding: 5px 5px;
+}
+
+.sobre-nos {
+    background-color: #BDBDBD;
+    color: rgba(0,0,0,.55);
+}
+
+.margin {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.parceiros {
+    background-color: #E6E6E6;
+    color: rgba(0,0,0,.55);
+}
+
+.servicos {
+    background-color: #BDBDBD;
+    color: rgba(0,0,0,.55);
+}
+
+.p {
+    text-align: center;
+    padding: 50px 30px 50px 30px;
+    color: rgba(0,0,0,.55);
+}
+
+section.contato{
+	padding: 80px 2% 2% 2%;
+	background-color: #E6E6E6;
+    text-align: center;
+    color: white;
+}
+
+section.contato h2{
+    color: rgba(0,0,0,.55);
+}
+
+section.contato p{
+	font-size: 19px;
+	padding: 10px 0;
+	text-align: center;
+    color: rgba(0,0,0,.55);
+}
+
+section.contato img{
+    padding: 20px 0;
+}
+
+section.contato form{
+	max-width: 600px;
+	margin: 30px auto;
+}
+
+section.contato .input-wraper{
+	padding: 10px;
+	margin-top: 7px;
+}
+
+section.contato input[type=text]{
+	width: 100%;
+	border: 1px solid #ccc;
+	height: 60px;
+	font-size: 16px;
+	line-height: 40px;
+	padding-left: 15px;
+}
+
+section.contato textarea{
+	font-size: 16px;
+	width: 100%;
+	border: 1px solid #ccc;
+	height: 140px;
+	padding: 8px;
+	resize: none;
+}
+
+section.contato form .input-wraper:nth-of-type(4){
+	text-align: center;
+}
+
+section.contato input[type=submit]{
+	background-color: #BDBDBD;
+    display: inline-block;
+    padding: 8px 16px;
+    color: #2E2E2E;
+    border-radius: 6px;
+    font-size: 18px;
+    border: 0;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+section.contato input[type=submit]:hover{
+    background-color: #2E2E2E;
+    color: white;
+}
+
+.w100{
+	width: 100%;
+}
+
+/*  ======= BOTÃO VOLTAR AO TOPO  ====== */
+
+#btntop{
+	position: fixed;
+	bottom: 40px;
+	right: 30px;
+	height: 50px;
+	width: 50px;
+	color: #ccc;
+	background: #2E2E2E;
+	border: 1px solid #ccc;
+	border-radius: 50vh;
+	display: none;
+	scroll-behavior: smooth;
+    cursor: pointer;
+}
+
+#btntop:hover{
+    background: #ccc;
+    color: #2E2E2E;
+    border: 1px solid #2e2e2e
+}
+
+footer {
+    background-color: #524c4c;
+    color: white;
+}
