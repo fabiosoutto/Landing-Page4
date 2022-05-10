@@ -1,4 +1,5 @@
-# Projeto_Bootstrap
-Projeto Bootstrap - criado no Bootcamp Carrefour Web Developer
+Site desenvolvido em HTML5, CSS3 e Javascript para ser usado para uma empresa apresentando produtos ou serviços.
 
-Link do site: https://fabiosoutto.github.io/Projeto-Bootstrap/
+Todo o site é responsivo e customizável para atender aos mais variados negócios.
+
+Link do site ativo: https://fabiosoutto.github.io/Landing-Page4/
